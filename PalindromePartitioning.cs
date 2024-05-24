@@ -40,17 +40,17 @@ namespace LeetCode.PalindromePartitioning
             }
         }
     }
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            Solution solution = new Solution();
-            string s = "aab";
-            IList<IList<string>> answer = solution.Partition(s);
-            foreach (var item in answer)
-            {
-                Console.WriteLine(answer);
-            }
-        }
-    }
+    // public class Program
+    // {
+    //     public static void Main(string[] args)
+    //     {
+    //         Solution solution = new Solution();
+    //         string s = "aab";
+    //         IList<IList<string>> answer = solution.Partition(s);
+    //         foreach (var item in answer)
+    //         {
+    //             Console.WriteLine(answer);
+    //         }
+    //     }
+    // }
 }
