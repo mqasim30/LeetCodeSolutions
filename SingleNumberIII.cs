@@ -29,13 +29,13 @@ namespace LeetCode.SingleNumberIII
         }
     }
 
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            Solution solution = new Solution();
-            int[] nums = [1, 2, 1, 3, 2, 5];
-            solution.SingleNumber(nums);
-        }
-    }
+    // public class Program
+    // {
+    //     public static void Main(string[] args)
+    //     {
+    //         Solution solution = new Solution();
+    //         int[] nums = [1, 2, 1, 3, 2, 5];
+    //         solution.SingleNumber(nums);
+    //     }
+    // }
 }
