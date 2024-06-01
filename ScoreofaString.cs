@@ -1,5 +1,3 @@
-using System.Xml.XPath;
-
 namespace LeetCode.ScoreofaString
 {
     public class Solution
