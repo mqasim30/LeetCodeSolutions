@@ -1,5 +1,3 @@
-using System.Drawing;
-
 namespace LeetCode.AppendCharacterstoStringtoMakeSubsequence
 {
     public class Solution
