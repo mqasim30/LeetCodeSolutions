@@ -32,13 +32,13 @@ namespace LeetCode.LongestPalindrome
             return result;
         }
     }
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            Solution solution = new Solution();
-            string s = "abccccdd";
-            Console.WriteLine(solution.LongestPalindrome(s));
-        }
-    }
+    // public class Program
+    // {
+    //     public static void Main(string[] args)
+    //     {
+    //         Solution solution = new Solution();
+    //         string s = "abccccdd";
+    //         Console.WriteLine(solution.LongestPalindrome(s));
+    //     }
+    // }
 }
