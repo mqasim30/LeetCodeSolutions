@@ -49,3 +49,8 @@ public class TaskScheduler
 //         Console.WriteLine("Next task: " + scheduler.GetNextTask());  // No tasks available.
 //     }
 // }
+
+// static void Main(string[] args)
+// {
+//     Solution solution = new Solution();
+// }
