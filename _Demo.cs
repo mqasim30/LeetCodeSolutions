@@ -50,7 +50,10 @@ public class TaskScheduler
 //     }
 // }
 
-// static void Main(string[] args)
+// public class Program
 // {
-//     Solution solution = new Solution();
+//     static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//     }
 // }
