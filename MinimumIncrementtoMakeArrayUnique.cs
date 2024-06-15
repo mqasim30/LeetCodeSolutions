@@ -37,12 +37,12 @@ public class Solution
     }
 }
 
-public class Program
-{
-    static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] nums = [3, 2, 1, 2, 1, 7];
-        Console.WriteLine(solution.MinIncrementForUnique(nums));
-    }
-}
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] nums = [3, 2, 1, 2, 1, 7];
+//         Console.WriteLine(solution.MinIncrementForUnique(nums));
+//     }
+// }
