@@ -37,14 +37,14 @@ public class Solution
     }
 }
 
-public class Program
-{
-    static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int k = 2, w = 0;
-        int[] profits = { 1, 2, 3 };
-        int[] capital = { 0, 1, 1 };
-        Console.WriteLine(solution.FindMaximizedCapital(k, w, profits, capital));
-    }
-}
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int k = 2, w = 0;
+//         int[] profits = { 1, 2, 3 };
+//         int[] capital = { 0, 1, 1 };
+//         Console.WriteLine(solution.FindMaximizedCapital(k, w, profits, capital));
+//     }
+// }
