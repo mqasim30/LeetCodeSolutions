@@ -27,14 +27,14 @@ public class Solution
 }
 
 
-public class Program
-{
-    static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] nums = [1, 3];
-        int n = 6;
-        Console.WriteLine(solution.MinPatches(nums, n));
-    }
-}
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] nums = [1, 3];
+//         int n = 6;
+//         Console.WriteLine(solution.MinPatches(nums, n));
+//     }
+// }
 
