@@ -25,13 +25,17 @@ public class Solution
     }
 }
 
-public class Program
-{
-    static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int c = 5;
-        Console.WriteLine(solution.JudgeSquareSum(c));
-    }
-}
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int c = 5;
+//         Console.WriteLine(solution.JudgeSquareSum(c));
+//     }
+// }
+
+
+
+
 
