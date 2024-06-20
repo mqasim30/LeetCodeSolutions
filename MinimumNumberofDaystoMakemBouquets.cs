@@ -56,13 +56,13 @@ public class Solution
     }
 }
 
-public class Program
-{
-    static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] bloomDay = [7, 7, 7, 7, 12, 7, 7];
-        int m = 2, k = 3;
-        Console.WriteLine(solution.MinDays(bloomDay, m, k));
-    }
-}
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] bloomDay = [7, 7, 7, 7, 12, 7, 7];
+//         int m = 2, k = 3;
+//         Console.WriteLine(solution.MinDays(bloomDay, m, k));
+//     }
+// }
