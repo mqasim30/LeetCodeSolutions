@@ -47,13 +47,13 @@ public class Solution
         return false;
     }
 }
-public class Program
-{
-    static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] position = [1, 2, 3, 4, 7];
-        int m = 3;
-        Console.WriteLine(solution.MaxDistance(position, m));
-    }
-}
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] position = [1, 2, 3, 4, 7];
+//         int m = 3;
+//         Console.WriteLine(solution.MaxDistance(position, m));
+//     }
+// }
