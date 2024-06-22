@@ -50,13 +50,13 @@ public class Solution
     }
 }
 
-public class Program
-{
-    static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] customers = [1, 0, 1, 2, 1, 1, 7, 5], grumpy = [0, 1, 0, 1, 0, 1, 0, 1];
-        int minutes = 3;
-        Console.WriteLine(solution.MaxSatisfied(customers, grumpy, minutes));
-    }
-}
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] customers = [1, 0, 1, 2, 1, 1, 7, 5], grumpy = [0, 1, 0, 1, 0, 1, 0, 1];
+//         int minutes = 3;
+//         Console.WriteLine(solution.MaxSatisfied(customers, grumpy, minutes));
+//     }
+// }
