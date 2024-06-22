@@ -27,12 +27,12 @@ public class Solution
     }
 }
 
-public class Program
-{
-    static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] nums = [0, 1, 1, 0, 1];
-        solution.MinOperations(nums);
-    }
-}
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] nums = [0, 1, 1, 0, 1];
+//         solution.MinOperations(nums);
+//     }
+// }
