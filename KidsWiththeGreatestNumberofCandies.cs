@@ -19,13 +19,13 @@ public class Solution
         return results;
     }
 }
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] candies = [2, 3, 5, 1, 3];
-        int extraCandies = 3;
-        Console.WriteLine(solution.KidsWithCandies(candies, extraCandies));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] candies = [2, 3, 5, 1, 3];
+//         int extraCandies = 3;
+//         Console.WriteLine(solution.KidsWithCandies(candies, extraCandies));
+//     }
+// }
