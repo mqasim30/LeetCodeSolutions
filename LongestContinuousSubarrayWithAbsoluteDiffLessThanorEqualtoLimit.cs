@@ -56,13 +56,13 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] nums = [8, 2, 4, 7];
-        int limit = 4;
-        Console.WriteLine(solution.LongestSubarray(nums, limit));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] nums = [8, 2, 4, 7];
+//         int limit = 4;
+//         Console.WriteLine(solution.LongestSubarray(nums, limit));
+//     }
+// }
