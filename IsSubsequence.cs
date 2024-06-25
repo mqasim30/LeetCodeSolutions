@@ -30,12 +30,12 @@ public class Solution
         return false;
     }
 }
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        string s = "axc", t = "ahbgdc";
-        System.Console.WriteLine(solution.IsSubsequence(s, t));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         string s = "axc", t = "ahbgdc";
+//         System.Console.WriteLine(solution.IsSubsequence(s, t));
+//     }
+// }
