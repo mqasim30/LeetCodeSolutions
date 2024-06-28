@@ -7,12 +7,12 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[][] edges = [[1, 2], [2, 3], [4, 2]];
-        Console.WriteLine(solution.FindCenter(edges));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[][] edges = [[1, 2], [2, 3], [4, 2]];
+//         Console.WriteLine(solution.FindCenter(edges));
+//     }
+// }
