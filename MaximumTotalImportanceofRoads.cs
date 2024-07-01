@@ -1,8 +1,5 @@
 namespace LeetCode.MaximumTotalImportanceofRoads;
 
-using System;
-using System.Linq;
-
 public class Solution {
     public long MaximumImportance(int n, int[][] roads) {
         int[] degree = new int[n];
