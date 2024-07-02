@@ -21,13 +21,13 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] arr = [1, 2, 34, 3, 4, 5, 7, 23, 12];
-        Console.WriteLine(solution.ThreeConsecutiveOdds(arr));
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] arr = [1, 2, 34, 3, 4, 5, 7, 23, 12];
+//         Console.WriteLine(solution.ThreeConsecutiveOdds(arr));
 
-    }
-}
+//     }
+// }
