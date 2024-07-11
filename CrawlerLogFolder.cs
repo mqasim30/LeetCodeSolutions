@@ -25,12 +25,12 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        string[] logs = ["d1/", "d2/", "../", "d21/", "./"];
-        Console.WriteLine(solution.MinOperations(logs));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         string[] logs = ["d1/", "d2/", "../", "d21/", "./"];
+//         Console.WriteLine(solution.MinOperations(logs));
+//     }
+// }

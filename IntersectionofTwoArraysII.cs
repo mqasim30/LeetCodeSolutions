@@ -29,13 +29,13 @@ public class Solution
         return ints.ToArray();
     }
 }
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] arr1 = [4, 9, 5];
-        int[] arr2 = [9, 4, 9, 8, 4];
-        solution.Intersect(arr1, arr2);
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] arr1 = [4, 9, 5];
+//         int[] arr2 = [9, 4, 9, 8, 4];
+//         solution.Intersect(arr1, arr2);
+//     }
+// }
