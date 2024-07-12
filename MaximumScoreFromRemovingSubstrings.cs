@@ -40,13 +40,13 @@ public class Solution
         return points;
     }
 }
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        string s = "aabbaaxybbaabb";
-        int x = 5, y = 4;
-        Console.WriteLine("Result = " + solution.MaximumGain(s, x, y));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         string s = "aabbaaxybbaabb";
+//         int x = 5, y = 4;
+//         Console.WriteLine("Result = " + solution.MaximumGain(s, x, y));
+//     }
+// }
