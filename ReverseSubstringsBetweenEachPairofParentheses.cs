@@ -30,12 +30,12 @@ public class Solution
         return new string(answer.ToArray());
     }
 }
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        string s = "(ed(et(oc))el)";
-        Console.WriteLine("Result = " + solution.ReverseParentheses(s));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         string s = "(ed(et(oc))el)";
+//         Console.WriteLine("Result = " + solution.ReverseParentheses(s));
+//     }
+// }
