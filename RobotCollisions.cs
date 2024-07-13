@@ -55,13 +55,13 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] positions = [5, 4, 3, 2, 1], healths = [2, 17, 9, 15, 10];
-        string directions = "LLLLL";
-        solution.SurvivedRobotsHealths(positions, healths, directions);
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] positions = [5, 4, 3, 2, 1], healths = [2, 17, 9, 15, 10];
+//         string directions = "LLLLL";
+//         solution.SurvivedRobotsHealths(positions, healths, directions);
+//     }
+// }
