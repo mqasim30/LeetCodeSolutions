@@ -27,12 +27,12 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] nums = [1, 7, 3, 6, 5, 6];
-        Console.WriteLine("Result = " + solution.PivotIndex(nums));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] nums = [1, 7, 3, 6, 5, 6];
+//         Console.WriteLine("Result = " + solution.PivotIndex(nums));
+//     }
+// }
