@@ -113,13 +113,13 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        string formula = "K4(ON(SO3)2)2";
-        Console.WriteLine(solution.CountOfAtoms(formula));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         string formula = "K4(ON(SO3)2)2";
+//         Console.WriteLine(solution.CountOfAtoms(formula));
+//     }
+// }
 
