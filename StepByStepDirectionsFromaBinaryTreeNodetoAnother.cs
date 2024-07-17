@@ -20,7 +20,9 @@ public class Solution
     {
         Queue<TreeNode> q = new Queue<TreeNode>();
         q.Enqueue(root);
+#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
         TreeNode startNode = null;
+#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
 
         // Find the start node
         while (q.Count > 0)
@@ -65,9 +67,13 @@ public class Solution
 
         // Track the path from the start node to the destination node
         HashSet<TreeNode> visited = new HashSet<TreeNode>();
+#pragma warning disable CS8604 // Possible null reference argument.
         q.Enqueue(startNode);
+#pragma warning restore CS8604 // Possible null reference argument.
         Dictionary<TreeNode, KeyValuePair<TreeNode, string>> trackedPath = new Dictionary<TreeNode, KeyValuePair<TreeNode, string>>();
+#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
         TreeNode destinationNode = null;
+#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
 
         while (q.Count > 0)
         {
@@ -102,11 +108,15 @@ public class Solution
 
         // Construct the path from the tracked directions
         List<string> resultPath = new List<string>();
+#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
         TreeNode currentNode = destinationNode;
+#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
 
         while (currentNode != startNode)
         {
+#pragma warning disable CS8604 // Possible null reference argument.
             var sourceAndDirection = trackedPath[currentNode];
+#pragma warning restore CS8604 // Possible null reference argument.
             resultPath.Add(sourceAndDirection.Value);
             currentNode = sourceAndDirection.Key;
         }
