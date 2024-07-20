@@ -1,59 +1,73 @@
 using System;
 using System.Collections.Generic;
-
-public class TaskScheduler
-{
-    private PriorityQueue<string, int> priorityQueue;
-
-    public TaskScheduler()
-    {
-        priorityQueue = new PriorityQueue<string, int>();
-    }
-
-    public void AddTask(string task, int priority)
-    {
-        priorityQueue.Enqueue(task, priority);
-    }
-
-    public string GetNextTask()
-    {
-        if (priorityQueue.Count > 0)
-        {
-            string result = priorityQueue.Dequeue();
-            return result;
-        }
-        else
-        {
-            return "No tasks available.";
-        }
-    }
-}
-
-// class Program
+// public class Solution
 // {
-//     static void Main(string[] args)
+//     public string LosingPlayer(int x, int y)
 //     {
-//         TaskScheduler scheduler = new TaskScheduler();
-
-//         // Adding tasks with priorities
-//         scheduler.AddTask("Task 1", -2);
-//         scheduler.AddTask("Task 2", -1);
-//         scheduler.AddTask("Task 3", -3);
-
-//         // Getting and processing tasks in priority order
-//         Console.WriteLine("Next task: " + scheduler.GetNextTask());  // Task 3
-//         Console.WriteLine("Next task: " + scheduler.GetNextTask());  // Task 1
-//         Console.WriteLine("Next task: " + scheduler.GetNextTask());  // Task 2
-
-//         // Trying to get a task when no tasks are available
-//         Console.WriteLine("Next task: " + scheduler.GetNextTask());  // No tasks available.
+//         int maxMoves = Math.Min(x, y / 4);
+//         if (maxMoves % 2 == 0)
+//         {
+//             return "Bob";
+//         }
+//         else
+//         {
+//             return "Alice";
+//         }
 //     }
 // }
+
+
 
 // public class Program
 // {
-//     static void Main(string[] args)
+//     public static void Main(string[] args)
 //     {
 //         Solution solution = new Solution();
+//         int x = 2, y = 7;
+//         //int x = 4, y = 11;
+//         System.Console.WriteLine(solution.LosingPlayer(x, y));
 //     }
 // }
+
+
+public class Solution
+{
+    public int MinimumLength(string s)
+    {
+        Dictionary<char, int> charCount = new Dictionary<char, int>();
+
+        // Count the occurrences of each character
+        foreach (char c in s)
+        {
+            if (!charCount.ContainsKey(c))
+            {
+                charCount[c] = 0;
+            }
+            charCount[c]++;
+        }
+
+        int maxCount = charCount.Values.Max();
+        int totalCount = s.Length;
+
+        // If the most frequent character appears more than half the time,
+        // it will determine the minimum length
+        if (maxCount > totalCount / 2)
+        {
+            return 2 * maxCount - totalCount;
+        }
+
+        // Otherwise, we can remove pairs until we have 0 or 1 character left
+        return totalCount % 2;
+    }
+}
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Solution solution = new Solution();
+        //string s = "abaacbcbb";
+        //string s = "ucvbutgkohgbcobqeyqwppbxqoynxeuuzouyvmydfhrprdbuzwqebwuiejoxsxdhbmuaiscalnteocghnlisxxawxgcjloevrdcj";
+        string s = "aa";
+        System.Console.WriteLine(solution.MinimumLength(s));
+    }
+}

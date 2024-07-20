@@ -36,16 +36,16 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[][] matrix = [[1, 10, 4, 2], [9, 3, 8, 7], [15, 16, 17, 12]];
-        IList<int> answers = solution.LuckyNumbers(matrix);
-        foreach (var item in answers)
-        {
-            Console.WriteLine("Value = " + item);
-        }
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[][] matrix = [[1, 10, 4, 2], [9, 3, 8, 7], [15, 16, 17, 12]];
+//         IList<int> answers = solution.LuckyNumbers(matrix);
+//         foreach (var item in answers)
+//         {
+//             Console.WriteLine("Value = " + item);
+//         }
+//     }
+// }
