@@ -9,13 +9,13 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        string[] names = ["Mary", "John", "Emma"];
-        int[] heights = [180, 165, 170];
-        Console.WriteLine(solution.SortPeople(names, heights));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         string[] names = ["Mary", "John", "Emma"];
+//         int[] heights = [180, 165, 170];
+//         Console.WriteLine(solution.SortPeople(names, heights));
+//     }
+// }
