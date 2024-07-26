@@ -55,16 +55,16 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int[] nums = [8, 9, 4, 0, 2, 1, 3, 5, 7, 6];
-        var answer = solution.SortArray(nums);
-        foreach (var item in answer)
-        {
-            Console.WriteLine("Result = " + item);
-        }
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int[] nums = [8, 9, 4, 0, 2, 1, 3, 5, 7, 6];
+//         var answer = solution.SortArray(nums);
+//         foreach (var item in answer)
+//         {
+//             Console.WriteLine("Result = " + item);
+//         }
+//     }
+// }
