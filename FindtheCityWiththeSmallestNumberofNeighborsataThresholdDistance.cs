@@ -88,14 +88,14 @@ public class Solution
         return resultCity;
     }
 }
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new Solution();
-        int n = 4;
-        int[][] edges = [[0, 1, 3], [1, 2, 1], [1, 3, 4], [2, 3, 1]];
-        int distanceThreshold = 4;
-        Console.WriteLine(solution.FindTheCity(n, edges, distanceThreshold));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new Solution();
+//         int n = 4;
+//         int[][] edges = [[0, 1, 3], [1, 2, 1], [1, 3, 4], [2, 3, 1]];
+//         int distanceThreshold = 4;
+//         Console.WriteLine(solution.FindTheCity(n, edges, distanceThreshold));
+//     }
+// }
