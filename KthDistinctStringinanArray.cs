@@ -4,6 +4,7 @@ public class Solution
     public string KthDistinct(string[] arr, int k)
     {
         Dictionary<string, int> keyValuePairs = new();
+        
         foreach (var item in arr)
         {
             if (!keyValuePairs.TryAdd(item, 1))
