@@ -21,14 +21,13 @@ public class Solution
         return k > distinctElements.Count ? "" : distinctElements[k - 1];
     }
 }
-
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new();
-        string[] arr = ["d", "b", "c", "b", "c", "a"];
-        int k = 2;
-        Console.WriteLine(solution.KthDistinct(arr, k));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new();
+//         string[] arr = ["d", "b", "c", "b", "c", "a"];
+//         int k = 2;
+//         Console.WriteLine(solution.KthDistinct(arr, k));
+//     }
+// }
