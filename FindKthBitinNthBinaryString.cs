@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace LeetCode.FindKthBitinNthBinaryString;
 
 public sealed class Solution
