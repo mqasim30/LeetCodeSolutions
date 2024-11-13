@@ -36,19 +36,25 @@ public class Solution
                 prefix += Math.Abs((long)robots[i] - factories[j][0]);
 
                 // Remove elements outside factory limit window
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
                 while (qq.Count > 0 && qq.First.Value.pos > i + factories[j][1])
                 {
                     qq.RemoveFirst();
                 }
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
 
                 // Maintain monotonic queue property
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
                 while (qq.Count > 0 && qq.Last.Value.val >= dp[i, j + 1] - prefix)
                 {
                     qq.RemoveLast();
                 }
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
 
                 qq.AddLast((i, dp[i, j + 1] - prefix));
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
                 dp[i, j] = qq.First.Value.val + prefix;
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
             }
         }
 
