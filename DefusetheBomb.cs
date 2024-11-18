@@ -29,14 +29,4 @@ namespace LeetCode.DefusetheBomb
             return result;
         }
     }
-
-    // public class Program
-    // {
-    //     public static void Main(string[] args)
-    //     {
-    //         Solution solution = new Solution();
-    //         int[] codes = [2,4,9,3];
-    //         solution.Decrypt(codes, -2);
-    //     }
-    // }
 }
