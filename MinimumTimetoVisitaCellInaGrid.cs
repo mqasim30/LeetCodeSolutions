@@ -1,5 +1,4 @@
 namespace LeetCode.MinimumTimetoVisitaCellInaGrid;
-
 public class Solution
 {
     private static readonly (int dr, int dc)[] MOVES = { (-1, 0), (0, 1), (1, 0), (0, -1) };
