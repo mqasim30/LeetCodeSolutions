@@ -18,15 +18,15 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new();
-        //int[] arr = [10, 2, 5, 3];
-        //int[] arr = [3, 1, 7, 11];
-        //int[] arr = [7, 1, 14, 11];
-        int[] arr = [0, 0];
-        Console.WriteLine(solution.CheckIfExist(arr));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new();
+//         //int[] arr = [10, 2, 5, 3];
+//         //int[] arr = [3, 1, 7, 11];
+//         //int[] arr = [7, 1, 14, 11];
+//         int[] arr = [0, 0];
+//         Console.WriteLine(solution.CheckIfExist(arr));
+//     }
+// }
