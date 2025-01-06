@@ -20,7 +20,7 @@ public class Solution
                 pathsStack.Push(log);
             }
         }
-
+        
         return pathsStack.Count;
     }
 }
