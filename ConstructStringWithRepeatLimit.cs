@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace LeetCode.ConstructStringWithRepeatLimit;
 
 public class Solution

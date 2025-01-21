@@ -3,3 +3,7 @@ Folder.DotSettings.user
 .idea/encodings.xml
 .idea/indexLayout.xml
 .idea/vcs.xml
+/obj
+/bin
+LeetCodeSolutions.csproj
+LeetCodeSolutions.sln
