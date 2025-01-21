@@ -24,16 +24,16 @@ public class Solution
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Solution solution = new();
-        int[][] grid = new int[][]
-        {
-            new int[] {3,3,1},
-            new int[] {8,5,2}
-        };
-        Console.WriteLine(solution.GridGame(grid));
-    }
-}
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Solution solution = new();
+//         int[][] grid = new int[][]
+//         {
+//             new int[] {3,3,1},
+//             new int[] {8,5,2}
+//         };
+//         Console.WriteLine(solution.GridGame(grid));
+//     }
+// }
