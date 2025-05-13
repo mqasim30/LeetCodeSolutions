@@ -1,6 +1,4 @@
 namespace LeetCode.TotalCharactersinStringAfterTransformationsI;
-
-
 public class Solution
 {
     private const int MOD = 1000000007;
