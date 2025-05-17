@@ -33,21 +33,5 @@ public class Solution
         {
             nums[i] = 2;
         }
-
-        foreach (var item in nums)
-        {
-            Console.WriteLine(item);
-        }
     }
 }
-
-
-// public class Program
-// {
-//     static void Main(string[] args)
-//     {
-//         Solution solution = new Solution();
-//         int[] nums = [2, 0, 2, 1, 1, 0];
-//         solution.SortColors(nums);
-//     }
-// }
