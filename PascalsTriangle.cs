@@ -1,55 +1,30 @@
-namespace LeetCode.PascalsTriangle
+namespace LeetCode.PascalsTraingle;
+
+public class Solution
 {
-    public class Solution
+    public IList<IList<int>> Generate(int numRows)
     {
-        public IList<IList<int>> Generate(int numRows)
+        List<List<int>> pascalsNumbers = new List<List<int>>();
+        int currentIndex = 0;
+        while (currentIndex < numRows)
         {
-            List<List<int>> pascalsNumbers = new List<List<int>>();
-            int currentIndex = 0;
-            while (currentIndex < numRows)
+            List<int> row = new List<int>();
+            for (int j = 0; j <= currentIndex; j++)
             {
-                List<int> row = new List<int>();
-                for (int j = 0; j <= currentIndex; j++)
+                if (j == 0 || j == currentIndex)
                 {
-                    if (j == 0 || j == currentIndex)
-                    {
-                        row.Add(1);
-                    }
-                    else
-                    {
-                        row.Add(pascalsNumbers[currentIndex - 1][j - 1] + pascalsNumbers[currentIndex - 1][j]);
-                    }
+                    row.Add(1);
                 }
-                pascalsNumbers.Add(row);
-                currentIndex++;
-            }
-
-            IList<IList<int>> result = pascalsNumbers.Cast<IList<int>>().ToList();
-            PrintPascalsTriangle(result);
-            return result;
-        }
-        public void PrintPascalsTriangle(IList<IList<int>> triangle)
-        {
-            for (int i = 0; i < triangle.Count; i++)
-            {
-                Console.Write(new string(' ', (triangle.Count - i - 1) * 2));
-
-                for (int j = 0; j < triangle[i].Count; j++)
+                else
                 {
-                    Console.Write($"{triangle[i][j]} ");
+                    row.Add(pascalsNumbers[currentIndex - 1][j - 1] + pascalsNumbers[currentIndex - 1][j]);
                 }
-
-                Console.WriteLine();
             }
+            pascalsNumbers.Add(row);
+            currentIndex++;
         }
+
+        IList<IList<int>> result = pascalsNumbers.Cast<IList<int>>().ToList();
+        return result;
     }
-
-    // public class Program
-    // {
-    //     public static void Main(string[] args)
-    //     {
-    //         Solution solution = new Solution();
-    //         solution.Generate(5);
-    //     }
-    // }
 }
