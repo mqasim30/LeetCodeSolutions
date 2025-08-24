@@ -31,12 +31,3 @@ public class Solution
         return maxLength - zeroCount;
     }
 }
-// public class Program
-// {
-//     public static void Main(string[] args)
-//     {
-//         Solution solution = new Solution();
-//         int[] nums = [0, 1, 1, 1, 0, 0, 0, 0, 1];
-//         Console.WriteLine(solution.LongestSubarray(nums));
-//     }
-// }
