@@ -1,6 +1,4 @@
 namespace LeetCode.LargestPerimeterTriangle;
-
-
 public class Solution
 {
     public int LargestPerimeter(int[] nums)
