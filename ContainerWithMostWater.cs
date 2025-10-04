@@ -29,12 +29,3 @@ public class Solution
         return result;
     }
 }
-// public class Program
-// {
-//     public static void Main(string[] args)
-//     {
-//         Solution solution = new Solution();
-//         int[] height = [1, 8, 6, 2, 5, 4, 8, 3, 7];
-//         Console.WriteLine(solution.MaxArea(height));
-//     }
-// }
