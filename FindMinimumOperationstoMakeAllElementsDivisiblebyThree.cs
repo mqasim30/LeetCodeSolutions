@@ -9,15 +9,12 @@ public class Solution
         {
             if (nums[i] % 3 != 0)
             {
-                Console.WriteLine("Found: " + nums[i]);
                 if ((nums[i] + 1) % 3 == 0)
                 {
-                    Console.WriteLine("Adding");
                     result += 1;
                 }
                 else if ((nums[i] - 1) % 3 == 0)
                 {
-                    Console.WriteLine("Subtracting");
                     result += 1;
                 }
             }
@@ -25,13 +22,3 @@ public class Solution
         return result;
     }
 }
-// public class Program
-// {
-//     static void Main(string[] args)
-//     {
-//         Solution solution = new Solution();
-//         int[] nums = [1, 1, 2, 1, 1];
-
-//         Console.WriteLine(solution.MinimumOperations(nums));
-//     }
-// }
