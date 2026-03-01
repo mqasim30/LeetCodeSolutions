@@ -1,5 +1,4 @@
-namespace LeetCode.MaximumMatrixSum;
-class Solution
+public class Solution
 {
     public long MaxMatrixSum(int[][] matrix)
     {
